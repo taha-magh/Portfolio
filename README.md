@@ -1,5 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
+  Portfolio Website <br/>
   <a href="https://tahamaghlazi.vercel.app/" target="_blank">tahamaghlazi.tech</a>
 </h2>
 <div align="center">
