@@ -21,14 +21,14 @@ function Certifications() {
                 <p style={{ color: "white" }}>
                     Here are a few Certifications I've worked on recently.
                 </p>
-                <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                <Row style={{ justifyContent: "center", paddingBottom: "10px"  }}>
                     <Col md={5} className="project-card">
                         <CertificationsCards
                             imgPath={chatify}
                             isBlog={false}
-                            title="Chatify"
-                            description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-                            demoLink="https://chatify-49.web.app/"
+                            title="Data Analytics and Visualization"
+                            description =" Delivered by Accenture"
+                            demoLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_kdAb6aTMyJvSJq7WF_1711384163682_completion_certificate.pdf"
                         />
                     </Col>
 

@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import ecom from "../../Assets/Projects/ecom.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import marrakech from "../../Assets/Projects/marrakech.png";
 import malaria from "../../Assets/Projects/malaria.png";
@@ -24,7 +24,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecom}
               isBlog={false}
               title="E-Commerce Purchase Prediction"
               description="This project focuses on predicting user purchase behavior on an e-commerce website based on user event data. The data consists of a CSV file that captures various user interactions, including views, cart additions, and purchases."

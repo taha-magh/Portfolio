@@ -5,6 +5,7 @@ import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 
 function CertificationsCards(props) {
+    
     return (
         <Card className="project-card-view">
             <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -27,7 +28,7 @@ function CertificationsCards(props) {
                         style={{ marginLeft: "10px" }}
                     >
                         <CgWebsite /> &nbsp;
-                        {"Demo"}
+                        {"Click"}
                     </Button>
                 )}
             </Card.Body>

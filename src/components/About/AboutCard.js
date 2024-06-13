@@ -10,27 +10,18 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Taha Maghlazi </span>
             from <span className="purple"> Paris, France.</span>
-            <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br/>
+            <br/>
+            I'm currently a Master's student in Data and Artificial Intelligence. Passionate about data and software development
+            <br/>
+            <br/>
+            I'm deeply interested in exploring the realms of data and software development.
+            <br/>
+            <br/>
+            Beyond my coding endeavors, I find immense joy and fulfillment in expressing my creativity as an artist through the intricate strokes and vibrant colors of painting.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
-
+          <br />
+          <br />
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
