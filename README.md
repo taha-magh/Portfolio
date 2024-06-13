@@ -8,7 +8,6 @@
  
 <br/>
 
-## Built With
 
 My personal portfolio <a href="https://tahamaghlazi.vercel.app/" target="_blank">tahamaghlazi.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
