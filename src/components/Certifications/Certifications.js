@@ -2,13 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import CertificationsCards from "./CertificationsCards"
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import cognizant from "../../Assets/Projects/cognizant.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import pwc from "../../Assets/Projects/pwc.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import marrakech from "../../Assets/Projects/marrakech.png";
-import malaria from "../../Assets/Projects/malaria.png";
+import google from "../../Assets/Projects/google.png";
 
 function Certifications() {
     return (
@@ -22,6 +22,17 @@ function Certifications() {
                     Here are a few Certifications I've worked on recently.
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom: "10px"  }}>
+                    
+                <Col md={5} className="project-card">
+                        <CertificationsCards
+                            imgPath={google}
+                            isBlog={false}
+                            title="Foundations of Data Science"
+                            description=" Delivered by Google."
+                            demoLink="https://www.coursera.org/account/accomplishments/records/PKEXX3CQHNTX"
+                        />
+                    </Col>
+
                     <Col md={5} className="project-card">
                         <CertificationsCards
                             imgPath={chatify}
@@ -32,33 +43,25 @@ function Certifications() {
                         />
                     </Col>
 
+                    
+
                     <Col md={5} className="project-card">
                         <CertificationsCards
-                            imgPath={malaria}
+                            imgPath={pwc}
                             isBlog={false}
-                            title="Image Classification for Malaria Detection"
-                            description="This project aims to classify images of parasitized and non-parasitized blood cells using convolutional neural networks (CNNs). Three models are employed: one built from scratch, one based on VGG16, and another based on ResNet50."
-                            demoLink="https://blogs.soumya-jit.tech/"
+                            title="Power BI Job Simulation"
+                            description=" Delivered by Pwc."
+                            demoLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_kdAb6aTMyJvSJq7WF_1711500114990_completion_certificate.pdf"
                         />
                     </Col>
 
                     <Col md={5} className="project-card">
                         <CertificationsCards
-                            imgPath={editor}
+                            imgPath={cognizant}
                             isBlog={false}
-                            title="Editor.io"
-                            description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-                            demoLink="https://editor.soumya-jit.tech/"
-                        />
-                    </Col>
-
-                    <Col md={5} className="project-card">
-                        <CertificationsCards
-                            imgPath={leaf}
-                            isBlog={false}
-                            title="Plant AI"
-                            description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-                            demoLink="https://plant49-ai.herokuapp.com/"
+                            title="Agile methodology Virtual Experience Program "
+                            description="Delivered by Cognizant"
+                            demoLink="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Cognizant%20USA/ZZswQd6xGydd758vz_Cognizant%20USA_mNJzheqvK56ariXrJ_1677374625761_completion_certificate.pdf"
                         />
                     </Col>
                 </Row>
