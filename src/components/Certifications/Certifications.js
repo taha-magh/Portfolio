@@ -3,11 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import CertificationsCards from "./CertificationsCards"
 import Particle from "../Particle";
 import cognizant from "../../Assets/Projects/cognizant.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import pwc from "../../Assets/Projects/pwc.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import marrakech from "../../Assets/Projects/marrakech.png";
 import google from "../../Assets/Projects/google.png";
 
 function Certifications() {
