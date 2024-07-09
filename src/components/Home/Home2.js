@@ -28,27 +28,25 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My primary interest is in the field of &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Data Engineering, </b> where I can leverage my background in web development{" "}
                 <b className="purple">
-                  Blockchain.
+                to build robust and scalable data solutions.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Currently, as a <b className="purple">Data Student</b> with web development experience, I am dedicated to combining these skills 
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  to develop innovative data-driven products
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; and
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> solutions.</b>
               </i>
             </p>
           </Col>
