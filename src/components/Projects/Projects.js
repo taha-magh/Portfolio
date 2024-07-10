@@ -43,7 +43,7 @@ function Projects() {
               isBlog={false}
               title="Image Classification for Malaria Detection"
               description="This project aims to classify images of parasitized and non-parasitized blood cells using convolutional neural networks (CNNs). Three models are employed: one built from scratch, one based on VGG16, and another based on ResNet50."
-              ghLink="https://github.com/taha-magh/Bits-0f-C0de"
+              ghLink="https://github.com/taha-magh/Blood_cells_Classification"
             />
           </Col>
 
