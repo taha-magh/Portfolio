@@ -144,7 +144,7 @@ function Projects() {
               isBlog={false}
               title="Application Web for Tax Management"
               description="Develop a web application for tax management using technologies like HTML, CSS, Spring, Angular, and SQL. Ensure the application effectively manages tax-related processes and data, providing a user-friendly interface for users to interact with."
-              ghLink="https://github.com/taha-magh/Stage-Back/tree/master"
+              ghLink="https://github.com/taha-magh/Projet_DGI"
             />
           </Col>
 
