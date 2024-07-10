@@ -7,6 +7,8 @@ import emotion from "../../Assets/Projects/emotion.png";
 import pbx1 from "../../Assets/Projects/pbx1.png";
 import pbx2 from "../../Assets/Projects/pbx2.png";
 import pbx3 from "../../Assets/Projects/pbx3.png";
+import pbx4 from "../../Assets/Projects/pbx4.png";
+import pbx5 from "../../Assets/Projects/pbx5.png";
 import ecom from "../../Assets/Projects/ecom.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import marrakech from "../../Assets/Projects/marrakech.png";
@@ -47,10 +49,30 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={pbx4}
+              isBlog={false}
+              title="Dashboard: Population and Births in France (2000-2020)"
+              description="This dashboard visualizes demographic data to illustrate population and birth trends across France from 2000 to 2020. It includes maps showing population distribution by department and city, charts of annual birth rates, and temporal graphs of demographic changes. Insights inform policy and local initiatives for effective demographic management."
+              ghLink="https://github.com/taha-magh/Bits-0f-C0de"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pbx1}
               isBlog={false}
               title="Dashboard: Visualizing HR Data and Addressing Gender Imbalance"
               description="This dashboard visualizes HR data to highlight gender KPIs and the slow progress toward gender balance in executive roles. It includes charts on gender distribution, trends in female representation, and promotion rates, identifying root causes and offering recommendations for improvement."
+              ghLink="https://github.com/taha-magh/Bits-0f-C0de"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pbx5}
+              isBlog={false}
+              title="Dashboard: Olympic Games Analysis"
+              description="This dashboard visualizes key Olympic Games metrics including medal standings, athlete performance, audience engagement, economic impact, and historical comparisons. It aims to provide actionable insights for strategic decision-making and understanding the event's global impact."
               ghLink="https://github.com/taha-magh/Bits-0f-C0de"
             />
           </Col>
